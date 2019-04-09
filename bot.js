@@ -3,10 +3,10 @@ const bot = new Client({ disableEveryone: true });
 const settings = require('./settings.json');
 
 let embed = new RichEmbed();
-var botinv = `https://discordapp.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=8`;
 
 bot.on('ready', () => {
 
+    var botinv = `https://discordapp.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=8`;
     console.log(`Connected to Discord! Invite me here : ${botinv}`);
     bot.user.setStatus('available')
     bot.user.setPresence({
