@@ -13,4 +13,4 @@ A bot made for confessions in discord.
 1. Edit settings.json and put the channel id of confessions channel and also the token of the bot.
 2. npm install discord.js
 3. node bot
-4. invite the bot throught the invite link in the console.
+4. Invite the bot through the invite link in the console.
